@@ -54,7 +54,6 @@ const checkGameStatus = () => {
     cells[8].classList.add('won')
   } else if (topLeft && topLeft === middleLeft && topLeft === bottomLeft) {
     handleWinner(topLeft);
-    console.log(topLeft, middleLeft, bottomLeft)
     cells[0].classList.add('won')
     cells[3].classList.add('won')
     cells[6].classList.add('won')
